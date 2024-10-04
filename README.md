@@ -4,9 +4,9 @@ This repository contains the code and notebooks for a short tutorial on Python G
 
 ## Notebooks
 
-1. [Hello World](https://colab.research.google.com/github/<username>/python-gui-mvc-tutorial/blob/main/test.ipynb)
-2. [lorem ipsum](https://colab.research.google.com/github/<username>/python-gui-mvc-tutorial/blob/main/notebook2.ipynb)
-3. [lorem ipsum](https://colab.research.google.com/github/<username>/python-gui-mvc-tutorial/blob/main/notebook3.ipynb)
+1. [Hello World](https://colab.research.google.com/github/Crackvignoule/python-gui-mvc-tutorial/blob/main/test.ipynb)
+2. [lorem ipsum](https://colab.research.google.com/github/Crackvignoule/python-gui-mvc-tutorial/blob/main/notebook2.ipynb)
+3. [lorem ipsum](https://colab.research.google.com/github/Crackvignoule/python-gui-mvc-tutorial/blob/main/notebook3.ipynb)
 
 ## Instructions
 
