@@ -8,10 +8,29 @@ This repository contains the code and notebooks for a short tutorial on Python G
 
 ## Getting Started
 
-If you prefer to run the code locally, follow these steps:
-
 1. Clone the repository:
    ```sh
-   git clone https://github.com/Ckrackvignoule/python-gui-mvc-tutorial.git
+   git clone https://github.com/Crackvignoule/python-gui-mvc-tutorial.git
    cd python-gui-mvc-tutorial
+   ```
+
+2. Create a virtual environment:
+   ```sh
+   python -m venv .venv
+   ```
+
+3. Activate the virtual environment:
+
+   - On Windows:
+     ```sh
+     .\.venv\Scripts\activate
+     ```
+   - On macOS and Linux:
+     ```sh
+     source .venv/bin/activate
+     ```
+
+4. Install the dependencies:
+   ```sh
+   pip install PySide6
    ```
