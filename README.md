@@ -73,9 +73,15 @@ This repository contains examples and exercises for creating GUI applications us
 
 
 ## Useful Links
-- [Python GUI Tutorials: Tkinter](https://www.pythonguis.com/tkinter/)
-- [Python GUI Tutorials: PySide6](https://www.pythonguis.com/pyside6/)
+- [PythonGUIs: Tkinter](https://www.pythonguis.com/tkinter/)
+- [PythonGUIs: PySide6](https://www.pythonguis.com/pyside6/)
+- [PythonGUIs Examples](https://github.com/pythonguis/pythonguis-examples)
 - [Which Python GUI Library Should You Choose?](https://www.pythonguis.com/faq/which-python-gui-library/)
+- [superqt - A collection of custom widgets for PySide6](https://pyapp-kit.github.io/superqt/)
+- [PySide6 Examples](https://doc.qt.io/qtforpython-6/examples/index.html)
+
+- [PySide6 Documentation](https://doc.qt.io/qtforpython-6/)
+- [Tkinter Documentation](https://docs.python.org/3/library/tkinter.html)
 
 ## References
 - [Javascript MVC lecture](https://github.com/PAJEAN/cours_javascript/blob/master/TP/MVC/README.md)
