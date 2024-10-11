@@ -32,5 +32,10 @@ This repository contains the code and notebooks for a short tutorial on Python G
 
 4. Install the dependencies:
    ```sh
-   pip install PySide6
+   pip install pyside6
    ```
+   
+## Useful Links
+- [Python GUI Tutorials: Tkinter](https://www.pythonguis.com/tkinter/)
+- [Python GUI Tutorials: PySide6](https://www.pythonguis.com/pyside6/)
+- [Which Python GUI Library Should You Choose?](https://www.pythonguis.com/faq/which-python-gui-library/)
