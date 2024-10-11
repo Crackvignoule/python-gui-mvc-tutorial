@@ -1,6 +1,6 @@
 # Python GUI and MVC Tutorial
 
-This repository contains the code and notebooks for a short tutorial on Python GUI and MVC using Tktiner & PySide6.
+This repository contains examples and exercises for creating GUI applications using Python. It also includes a presentation in both [PowerPoint](./presentation/todo.pptx) and [PDF](./presentation/todo.pdf) formats.
 
 <!-- ## Notebooks
 
