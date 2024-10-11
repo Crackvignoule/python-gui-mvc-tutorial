@@ -67,8 +67,8 @@ This repository contains examples and exercises for creating GUI applications us
 
 ## Exercises
 
-- [Exercise 1](./exercises/1/README.md): Create a simple form with a button that prints the form data.
-- [Exercise 2](./exercises/2/README.md): TODO
+- [Exercise 1](./exercises/1/README.md): Add an Email Field to the Form
+- [Exercise 2](./exercises/2/README.md): Implement Form Validation
 - [Exercise 3 (Advanced)](./exercises/3/README.md): Calculator
 
 
