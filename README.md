@@ -19,19 +19,23 @@ This repository contains examples and exercises for creating GUI applications us
 
 
 ## Getting Started
+<!-- TODO May be better in french -->
+1. Open Command Prompt (cmd) on Windows:
+   - Press `Win + R` to open the Run dialog.
+   - Type `cmd` and press `Enter`.
 
-1. Clone the repository:
+2. Clone the repository:
    ```sh
    git clone https://github.com/Crackvignoule/python-gui-mvc-tutorial.git
    cd python-gui-mvc-tutorial
    ```
 
-2. Create a virtual environment:
+3. Create a virtual environment:
    ```sh
    python -m venv .venv
    ```
 
-3. Activate the virtual environment:
+4. Activate the virtual environment:
 
    - On Windows:
      ```sh
@@ -42,7 +46,7 @@ This repository contains examples and exercises for creating GUI applications us
      source .venv/bin/activate
      ```
 
-4. Install the dependencies:
+5. Install the dependencies:
    ```sh
    pip install pyside6
    ```
