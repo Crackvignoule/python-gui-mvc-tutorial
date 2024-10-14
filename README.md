@@ -20,6 +20,7 @@ This repository contains examples and exercises for creating GUI applications us
 
 ## Getting Started
 <!-- TODO May be better in french -->
+<!-- TODO Google form at the end -->
 1. Open Command Prompt (cmd) on Windows:
    - Press `Win + R` to open the Run dialog.
    - Type `cmd` and press `Enter`.
