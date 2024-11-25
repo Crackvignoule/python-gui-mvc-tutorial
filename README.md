@@ -1,83 +1,82 @@
-# Python GUI and MVC Tutorial
+[README in English](README_EN.md)
 
-This repository contains examples and exercises for creating GUI applications using Python. It also includes a presentation in both [PowerPoint](./presentation/todo.pptx) and [PDF](./presentation/todo.pdf) formats.
+# Tutoriel Python GUI et MVC
+
+Ce dépôt contient des exemples et des exercices pour créer des applications GUI en utilisant Python. Il inclut également une présentation en formats [PowerPoint](./presentation/todo.pptx) et [PDF](./presentation/todo.pdf).
 
 <!-- ## Notebooks
 
 1. [Hello World](https://colab.research.google.com/github/Crackvignoule/python-gui-mvc-tutorial/blob/main/test.ipynb) -->
 
-## Table of Contents
+## Table des Matières
 
-- [Getting Started](#getting-started)
-- [Examples](#examples)
+- [Commencer](#commencer)
+- [Exemples](#exemples)
   - [Tkinter](#tkinter)
   - [PySide6](#pyside6)
   - [MVC](#mvc)
-- [Exercises](#interactive-exercises)
-- [Useful Links](#useful-links)
-- [References](#references)
+- [Exercices](#exercices)
+- [Liens Utiles](#liens-utiles)
+- [Références](#références)
 
-
-## Getting Started
-<!-- TODO May be better in french -->
+## Commencer
 <!-- TODO Google form at the end -->
-1. Open Command Prompt (cmd) on Windows:
-   - Press `Win + R` to open the Run dialog.
-   - Type `cmd` and press `Enter`.
+1. Ouvrir l'invite de commande (cmd) sur Windows:
+   - Appuyez sur `Win + R` pour ouvrir la boîte de dialogue Exécuter.
+   - Tapez `cmd` et appuyez sur `Entrée`.
 
-2. Clone the repository:
+1. Cloner le dépôt :
    ```sh
    git clone https://github.com/Crackvignoule/python-gui-mvc-tutorial.git
    cd python-gui-mvc-tutorial
    ```
 
-3. Create a virtual environment:
+2. Créer un environnement virtuel :
    ```sh
    python -m venv .venv
    ```
 
-4. Activate the virtual environment:
+3. Activer l'environnement virtuel :
+   
+      - Sur Windows :
+      ```sh
+      .\.venv\Scripts\activate
+      ```
+      - Sur macOS et Linux :
+      ```sh
+      source .venv/bin/activate
+      ```
 
-   - On Windows:
-     ```sh
-     .\.venv\Scripts\activate
-     ```
-   - On macOS and Linux:
-     ```sh
-     source .venv/bin/activate
-     ```
-
-5. Install the dependencies:
+4. Installer les dépendances :
    ```sh
    pip install pyside6
    ```
 
-## Examples
+## Exemples
 
 ### Tkinter
 
-- [Hello World](./examples/tkinter/helloworld.py): A simple "Hello World" example using Tkinter.
-- [Form](./examples/tkinter/form.py): A simple form example using Tkinter.
-- [Form with ttk](./examples/tkinter/ttk_form.py): A simple form example using `ttk`.
+- [Hello World](./examples/tkinter/helloworld.py) : Un exemple simple "Hello World" utilisant Tkinter.
+- [Formulaire](./examples/tkinter/form.py) : Un exemple de formulaire simple utilisant Tkinter.
+- [Formulaire avec ttk](./examples/tkinter/ttk_form.py) : Un exemple de formulaire simple utilisant `ttk`.
 
 ### PySide6
 
-- [Hello World](./examples/pyside6/helloworld.py): A simple "Hello World" example using PySide6.
-- [Form](./examples/pyside6/form.py): A simple form example using PySide6.
+- [Hello World](./examples/pyside6/helloworld.py) : Un exemple simple "Hello World" utilisant PySide6.
+- [Formulaire](./examples/pyside6/form.py) : Un exemple de formulaire simple utilisant PySide6.
 
 ### MVC
 
-- [Simple MVC](./examples/mvc/simple/helloworld.py): A simple MVC example in a single file.
-- [Full MVC](./examples/mvc/full/): A more complex MVC example with proper folder structure.
+- [Hello World](./examples/mvc/helloworld.py) : Un exemple simple "Hello World" utilisant le modèle MVC.
+- [Formulaire](./examples/mvc/form.py) : Un exemple de formulaire simple utilisant le modèle MVC.
 
-## Exercises
+## Exercices
 
-- [Exercise 1](./exercises/1/README.md): Add an Email Field to the Form
-- [Exercise 2](./exercises/2/README.md): Implement Form Validation
-- [Exercise 3 (Advanced)](./exercises/3/README.md): Calculator
+- [Exercice 1](./exercises/1/README.md) : Ajouter un champ "email" au formulaire.
+- [Exercice 2](./exercises/2/README.md) : Implémenter la validation du formulaire.
+- [Exercice 3 (Avancé)](./exercises/3/README.md) : Calculatrice.
 
-
-## Useful Links
+## Liens Utiles
 - [PythonGUIs: Tkinter](https://www.pythonguis.com/tkinter/)
 - [PythonGUIs: PySide6](https://www.pythonguis.com/pyside6/)
 - [PythonGUIs Examples](https://github.com/pythonguis/pythonguis-examples)
@@ -85,8 +84,5 @@ This repository contains examples and exercises for creating GUI applications us
 - [superqt - A collection of custom widgets for PySide6](https://pyapp-kit.github.io/superqt/)
 - [PySide6 Examples](https://doc.qt.io/qtforpython-6/examples/index.html)
 
-- [PySide6 Documentation](https://doc.qt.io/qtforpython-6/)
-- [Tkinter Documentation](https://docs.python.org/3/library/tkinter.html)
-
-## References
+## Références
 - [Javascript MVC lecture](https://github.com/PAJEAN/cours_javascript/blob/master/TP/MVC/README.md)
