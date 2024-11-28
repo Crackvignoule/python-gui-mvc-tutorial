@@ -2,7 +2,7 @@
 
 # Tutoriel Python GUI et MVC
 
-Ce dépôt contient des exemples et des exercices pour créer des applications GUI en utilisant Python. Il inclut également une présentation en formats [PowerPoint](./presentation/todo.pptx) et [PDF](./presentation/todo.pdf).
+Ce dépôt contient des exemples et des exercices pour créer des applications GUI en utilisant Python. Il inclut également une présentation en formats [PowerPoint](./presentation/todo.pptx) et [PDF](./presentation/todo.pdf). J'ai aussi créé un [formulaire Google](https://forms.gle/85zxmsa3xaf7VwH77) pour recueillir votre avis.
 
 <!-- ## Notebooks
 
@@ -20,7 +20,7 @@ Ce dépôt contient des exemples et des exercices pour créer des applications G
 - [Références](#références)
 
 ## Commencer
-<!-- TODO Google form at the end -->
+
 1. Ouvrir l'invite de commande (cmd) sur Windows:
    - Appuyez sur `Win + R` pour ouvrir la boîte de dialogue Exécuter.
    - Tapez `cmd` et appuyez sur `Entrée`.
@@ -52,6 +52,8 @@ Ce dépôt contient des exemples et des exercices pour créer des applications G
    pip install pyside6
    ```
 
+   Parfait, vous êtes prêt à commencer !
+
 ## Exemples
 
 ### Tkinter
@@ -75,6 +77,14 @@ Ce dépôt contient des exemples et des exercices pour créer des applications G
 - [Exercice 1](./exercises/1/README.md) : Ajouter un champ "email" au formulaire.
 - [Exercice 2](./exercises/2/README.md) : Implémenter la validation du formulaire.
 - [Exercice 3 (Avancé)](./exercises/3/README.md) : Calculatrice.
+
+## Lancer QT Designer
+
+Pour lancer Qt Designer, vous pouvez utiliser la commande suivante :
+
+```sh
+python -c "import os, site, subprocess; subprocess.run([os.path.join(site.getsitepackages()[1], 'PySide6', 'designer')])"
+```
 
 ## Liens Utiles
 - [PythonGUIs: Tkinter](https://www.pythonguis.com/tkinter/)

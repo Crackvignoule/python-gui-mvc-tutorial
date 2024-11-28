@@ -2,7 +2,7 @@
 
 # Python GUI and MVC Tutorial
 
-This repository contains examples and exercises for creating GUI applications using Python. It also includes a presentation in both [PowerPoint](./presentation/todo.pptx) and [PDF](./presentation/todo.pdf) formats.
+This repository contains examples and exercises for creating GUI applications using Python. It also includes a presentation in both [PowerPoint](./presentation/todo.pptx) and [PDF](./presentation/todo.pdf) formats. I've also created a [Google Form](https://forms.gle/85zxmsa3xaf7VwH77) to gather your feedback.
 
 <!-- ## Notebooks
 
@@ -53,6 +53,8 @@ This repository contains examples and exercises for creating GUI applications us
    pip install pyside6
    ```
 
+   Perfect, you are ready to start!
+
 ## Examples
 
 ### Tkinter
@@ -77,6 +79,13 @@ This repository contains examples and exercises for creating GUI applications us
 - [Exercise 2](./exercises/2/README.md): Implement Form Validation
 - [Exercise 3 (Advanced)](./exercises/3/README.md): Calculator
 
+## Launch QT Designer
+
+To launch QT Designer, you can use the following command:
+
+```sh
+python -c "import os, site, subprocess; subprocess.run([os.path.join(site.getsitepackages()[1], 'PySide6', 'designer')])"
+```
 
 ## Useful Links
 - [PythonGUIs: Tkinter](https://www.pythonguis.com/tkinter/)
