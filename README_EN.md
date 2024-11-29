@@ -75,9 +75,9 @@ This repository contains examples and exercises for creating GUI applications us
 
 ## Exercises
 
-- [Exercise 1](./exercises/1/README.md): Add an Email Field to the Form
-- [Exercise 2](./exercises/2/README.md): Implement Form Validation
-- [Exercise 3 (Advanced)](./exercises/3/README.md): Calculator
+- [Exercise 1](./exercises/1/README_EN.md): Add an Email Field to the Form
+- [Exercise 2](./exercises/2/README_EN.md): Implement Form Validation
+- [Exercise 3 (Advanced)](./exercises/3/README_EN.md): Calculator
 
 ## Launch QT Designer
 

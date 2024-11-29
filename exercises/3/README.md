@@ -1,18 +1,18 @@
-# Exercise 3: Create a Calculator App
+# Exercice 3 : Créer une application de calculatrice
 
-## Objective
+## Objectif
 
-Create a simple calculator app that can perform basic arithmetic operations (addition, subtraction, multiplication, and division).
+Créer une application de calculatrice simple qui peut effectuer des opérations arithmétiques de base (addition, soustraction, multiplication et division).
 
 ## Instructions
 
-1. Create a new file for the calculator app for the framework you are using:
-   - Tkinter: [calculator.py](../../examples/tkinter/calculator.py)
-   - PySide6: [calculator.py](../../examples/pyside6/calculator.py)
-2. Design the calculator layout with buttons for digits (0-9) and operations (+, -, *, /).
-3. Implement the functionality to perform the arithmetic operations and display the result.
+1. Créez un nouveau fichier pour l'application de calculatrice pour le framework que vous utilisez :
+   - Tkinter : [calculator.py](../../examples/tkinter/calculator.py)
+   - PySide6 : [calculator.py](../../examples/pyside6/calculator.py)
+2. Concevez la disposition de la calculatrice avec des boutons pour les chiffres (0-9) et les opérations (+, -, *, /).
+3. Implémentez la fonctionnalité pour effectuer les opérations arithmétiques et afficher le résultat.
 
 ## Solutions
 
-- [Tkinter Solution](./tkinter-solution.py)
-- [PySide6 Solution](./pyside6-solution.py)
+- [Solution Tkinter](./tkinter-solution.py)
+- [Solution PySide6](./pyside6-solution.py)

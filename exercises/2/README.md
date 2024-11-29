@@ -1,17 +1,17 @@
-# Exercise 2: Add Form Validation
+# Exercice 2 : Ajouter une validation de formulaire
 
-## Objective
+## Objectif
 
-Add validation to the form inputs to ensure that the name, age, and email fields are not empty.
+Ajouter une validation aux champs du formulaire pour s'assurer que les champs nom, âge et email ne sont pas vides.
 
 ## Instructions
-1. Open the solution file for Exercise 1 for the framework you are using:
-   - Tkinter: [tkinter-solution.py](../1/tkinter-solution.py)
-   - PySide6: [pyside6-solution.py](../1/pyside6-solution.py)
-2. Add validation to ensure that the name, age, and email fields are not empty.
-3. Display an error message if validation fails.
+1. Ouvrez le fichier de solution pour l'Exercice 1 pour le framework que vous utilisez :
+   - Tkinter : [tkinter-solution.py](../1/tkinter-solution.py)
+   - PySide6 : [pyside6-solution.py](../1/pyside6-solution.py)
+2. Ajoutez une validation pour s'assurer que les champs nom, âge et email ne sont pas vides.
+3. Affichez un message d'erreur si la validation échoue.
 
 ## Solutions
 
-- [Tkinter Solution](./tkinter-solution.py)
-- [PySide6 Solution](./pyside6-solution.py)
+- [Solution Tkinter](./tkinter-solution.py)
+- [Solution PySide6](./pyside6-solution.py)

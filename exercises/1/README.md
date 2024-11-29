@@ -1,18 +1,18 @@
-# Exercise 1: Add an Email Field
+# Exercice 1 : Ajouter un champ Email
 
-## Objective
+## Objectif
 
-Add an email input field to the form.
+Ajouter un champ de saisie d'email au formulaire.
 
 ## Instructions
 
-1. Open the form file for the framework you are using:
-   - Tkinter: [form.py](../../examples/tkinter/form.py)
-   - PySide6: [form.py](../../examples/pyside6/form.py)
-2. Add a new label and entry for the email field.
-3. Update the `submit` function to print the email.
+1. Ouvrez le fichier de formulaire pour le framework que vous utilisez :
+   - Tkinter : [form.py](../../examples/tkinter/form.py)
+   - PySide6 : [form.py](../../examples/pyside6/form.py)
+2. Ajoutez une nouvelle étiquette et une entrée pour le champ email.
+3. Mettez à jour la fonction `submit` pour afficher l'email.
 
 ## Solutions
 
-- [Tkinter Solution](./tkinter-solution.py)
-- [PySide6 Solution](./pyside6-solution.py)
+- [Solution Tkinter](./tkinter-solution.py)
+- [Solution PySide6](./pyside6-solution.py)
