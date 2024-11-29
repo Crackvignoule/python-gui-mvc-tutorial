@@ -9,7 +9,7 @@ Ajouter un champ de saisie d'email au formulaire.
 1. Ouvrez le fichier de formulaire pour le framework que vous utilisez :
    - Tkinter : [form.py](../../examples/tkinter/form.py)
    - PySide6 : [form.py](../../examples/pyside6/form.py)
-2. Ajoutez une nouvelle étiquette et une entrée pour le champ email.
+2. Ajoutez un nouveau 'label' et une nouvelle 'entry' pour le champ email.
 3. Mettez à jour la fonction `submit` pour afficher l'email.
 
 ## Solutions

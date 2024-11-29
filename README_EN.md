@@ -94,8 +94,7 @@ python -c "import os, site, subprocess; subprocess.run([os.path.join(site.getsit
 - [Which Python GUI Library Should You Choose?](https://www.pythonguis.com/faq/which-python-gui-library/)
 - [superqt - A collection of custom widgets for PySide6](https://pyapp-kit.github.io/superqt/)
 - [PySide6 Examples](https://doc.qt.io/qtforpython-6/examples/index.html)
-
-- [PySide6 Documentation](https://doc.qt.io/qtforpython-6/)
+- [PySide6 Documentation](https://doc.qt.io/qtforpython-6#documentation)
 - [Tkinter Documentation](https://docs.python.org/3/library/tkinter.html)
 
 ## References
