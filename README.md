@@ -76,7 +76,7 @@ Ce dépôt contient des exemples et des exercices pour créer des applications G
 
 - [Exercice 1](./exercises/1/README.md) : Ajouter un champ "email" au formulaire.
 - [Exercice 2](./exercises/2/README.md) : Implémenter la validation du formulaire.
-- [Exercice 3 (Avancé)](./exercises/3/README.md) : Calculatrice.
+- [Exercice 3](./exercises/3/README.md) : Ajouter un menu et une barre de statut.
 
 ## Lancer QT Designer
 
@@ -95,6 +95,7 @@ python -c "import os, site, subprocess; subprocess.run([os.path.join(site.getsit
 - [PySide6 Examples](https://doc.qt.io/qtforpython-6/examples/index.html)
 - [PySide6 Documentation](https://doc.qt.io/qtforpython-6#documentation)
 - [Tkinter Documentation](https://docs.python.org/3/library/tkinter.html)
+- [Formation Studio (Designer Alternative)](https://github.com/ObaraEmmanuel/Formation)
 
 ## Références
 - [Javascript MVC lecture](https://github.com/PAJEAN/cours_javascript/blob/master/TP/MVC/README.md)

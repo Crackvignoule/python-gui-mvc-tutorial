@@ -77,7 +77,7 @@ This repository contains examples and exercises for creating GUI applications us
 
 - [Exercise 1](./exercises/1/README_EN.md): Add an Email Field to the Form
 - [Exercise 2](./exercises/2/README_EN.md): Implement Form Validation
-- [Exercise 3 (Advanced)](./exercises/3/README_EN.md): Calculator
+- [Exercise 3](./exercises/3/README_EN.md): Add a Menu and a Status Bar
 
 ## Launch QT Designer
 
@@ -96,6 +96,7 @@ python -c "import os, site, subprocess; subprocess.run([os.path.join(site.getsit
 - [PySide6 Examples](https://doc.qt.io/qtforpython-6/examples/index.html)
 - [PySide6 Documentation](https://doc.qt.io/qtforpython-6#documentation)
 - [Tkinter Documentation](https://docs.python.org/3/library/tkinter.html)
+- [Formation Studio (Designer Alternative)](https://github.com/ObaraEmmanuel/Formation)
 
 ## References
 - [Javascript MVC lecture](https://github.com/PAJEAN/cours_javascript/blob/master/TP/MVC/README.md)

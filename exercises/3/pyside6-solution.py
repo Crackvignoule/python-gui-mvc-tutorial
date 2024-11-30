@@ -1,77 +1,71 @@
-# from PySide6.QtCore import Qt
-# from PySide6.QtGui import QFont
-# from PySide6.QtWidgets import QApplication, QWidget, QVBoxLayout, QGridLayout, QTextEdit, QPushButton
+from PySide6.QtGui import QAction
+from PySide6.QtWidgets import QApplication, QMainWindow, QWidget, QVBoxLayout, QLabel, QLineEdit, QPushButton, QMessageBox, QMenuBar, QStatusBar
 
-# class Calculator(QWidget):
-#     def __init__(self):
-#         super().__init__()
-#         self.setWindowTitle("Calculator")
-        
-#         self.layout = QVBoxLayout()
-#         self.grid = QGridLayout()
-        
-#         self.entry = QTextEdit()
-#         self.entry.setAlignment(Qt.AlignRight)
-#         self.entry.setFont(QFont("Arial", 20))
-#         self.entry.setFixedHeight(50)
-        
-#         self.layout.addWidget(self.entry)
-#         self.layout.addLayout(self.grid)
-        
-#         self.setLayout(self.layout)
-        
-#         buttons = [
-#             '7', '8', '9', '/',
-#             '4', '5', '6', '*',
-#             '1', '2', '3', '-',
-#             'C', '0', '=', '+'
-#         ]
-        
-#         row_val = 1
-#         col_val = 0
-        
-#         for button in buttons:
-#             btn = QPushButton(button)
-#             btn.setFont(QFont("Arial", 20))
-#             btn.clicked.connect(self.on_click)
-#             self.grid.addWidget(btn, row_val, col_val)
-#             col_val += 1
-#             if col_val > 3:
-#                 col_val = 0
-#                 row_val += 1
+def submit():
+    name = name_input.text()
+    age = age_input.text()
+    email = email_input.text()
     
-#     def on_click(self):
-#         button = self.sender()
-#         text = button.text()
-#         if text == "=":
-#             try:
-#                 result = eval(self.entry.toPlainText())
-#                 self.entry.setText(str(result))
-#             except:
-#                 self.entry.setText("Error")
-#         elif text == "C":
-#             self.entry.setText("")
-#         else:
-#             self.entry.setText(self.entry.toPlainText() + text)
-    
-#     def keyPressEvent(self, event):
-#         if event.key() == Qt.Key_Return or event.key() == Qt.Key_Enter:
-#             self.on_click_equals()
-#         elif event.key() == Qt.Key_Escape:
-#             self.entry.setText("")
-#         else:
-#             super().keyPressEvent(event)
-    
-#     def on_click_equals(self):
-#         try:
-#             result = eval(self.entry.toPlainText())
-#             self.entry.setText(str(result))
-#         except:
-#             self.entry.setText("Error")
+    if not name or not age or not email:
+        QMessageBox.critical(window, "Validation Error", "Name, Age, and Email fields cannot be empty")
+    else:
+        print(f"Name: {name}, Age: {age}, Email: {email}")
+        status_bar.showMessage("Form submitted successfully")
 
-# app = QApplication([])
+def quit_app():
+    app.quit()
 
-# window = Calculator()
-# window.show()
+def show_about():
+    QMessageBox.information(window, "About", "This is a simple form application")
 
-# app.exec()
+app = QApplication([])
+
+window = QMainWindow()
+window.setWindowTitle("Simple Form")
+
+central_widget = QWidget()
+layout = QVBoxLayout()
+
+name_label = QLabel("Name")
+age_label = QLabel("Age")
+email_label = QLabel("Email")
+
+name_input = QLineEdit()
+age_input = QLineEdit()
+email_input = QLineEdit()
+
+submit_button = QPushButton("Submit")
+submit_button.clicked.connect(submit)
+
+layout.addWidget(name_label)
+layout.addWidget(name_input)
+layout.addWidget(age_label)
+layout.addWidget(age_input)
+layout.addWidget(email_label)
+layout.addWidget(email_input)
+layout.addWidget(submit_button)
+
+central_widget.setLayout(layout)
+window.setCentralWidget(central_widget)
+
+# Create menu
+menu_bar = QMenuBar()
+window.setMenuBar(menu_bar)
+
+file_menu = menu_bar.addMenu("File")
+quit_action = QAction("Quit", window)
+quit_action.triggered.connect(quit_app)
+file_menu.addAction(quit_action)
+
+help_menu = menu_bar.addMenu("Help")
+about_action = QAction("About", window)
+about_action.triggered.connect(show_about)
+help_menu.addAction(about_action)
+
+# Create status bar
+status_bar = QStatusBar()
+window.setStatusBar(status_bar)
+status_bar.showMessage("Ready")
+
+window.show()
+app.exec()

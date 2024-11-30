@@ -1,63 +1,57 @@
 import tkinter as tk
+from tkinter import messagebox
 
-def on_click(event):
-    """
-    Handles button click events.
-    """
-    text = event.widget.cget("text")
-    if text == "=":
-        try:
-            result = eval(entry.get())
-            entry.delete(0, tk.END)
-            entry.insert(tk.END, str(result))
-        except:
-            entry.delete(0, tk.END)
-            entry.insert(tk.END, "Error")
-    elif text == "C":
-        entry.delete(0, tk.END)
+def submit():
+    name = name_entry.get()
+    age = age_entry.get()
+    email = email_entry.get()
+    
+    if not name or not age or not email:
+        messagebox.showerror("Validation Error", "Name, Age, and Email fields cannot be empty")
     else:
-        entry.insert(tk.END, text)
+        print(f"Name: {name}, Age: {age}, Email: {email}")
+        status_var.set("Form submitted successfully")
 
-def on_key(event):
-    """
-    Handles key press events.
-    """
-    if event.keysym in '0123456789+-*/':
-        return
-    elif event.keysym == 'Return':
-        mock_event = type(
-            'Event', (object,), {'widget': tk.Button(root, text="=")}
-        )()
-        on_click(mock_event)
-    elif event.keysym == 'Escape':
-        entry.delete(0, tk.END)
+def quit_app():
+    root.quit()
+
+def show_about():
+    messagebox.showinfo("About", "This is a simple form application")
 
 root = tk.Tk()
-root.title("Calculator")
+root.title("Simple Form")
 
-entry = tk.Entry(root, font="Arial 20", borderwidth=5, relief=tk.SUNKEN)
-entry.grid(row=0, column=0, columnspan=4)
-entry.focus_set()
+# Create menu
+menu_bar = tk.Menu(root)
+root.config(menu=menu_bar)
 
-buttons = [
-    '7', '8', '9', '/',
-    '4', '5', '6', '*',
-    '1', '2', '3', '-',
-    'C', '0', '=', '+'
-]
+file_menu = tk.Menu(menu_bar, tearoff=0)
+menu_bar.add_cascade(label="File", menu=file_menu)
+file_menu.add_command(label="Quit", command=quit_app)
 
-ROW_VAL = 1
-COL_VAL = 0
+help_menu = tk.Menu(menu_bar, tearoff=0)
+menu_bar.add_cascade(label="Help", menu=help_menu)
+help_menu.add_command(label="About", command=show_about)
 
-for button in buttons:
-    btn = tk.Button(root, text=button, font="Arial 20", padx=20, pady=20)
-    btn.grid(row=ROW_VAL, column=COL_VAL)
-    btn.bind("<Button-1>", on_click)
-    COL_VAL += 1
-    if COL_VAL > 3:
-        COL_VAL = 0
-        ROW_VAL += 1
+# Create form
+tk.Label(root, text="Name").grid(row=0)
+tk.Label(root, text="Age").grid(row=1)
+tk.Label(root, text="Email").grid(row=2)
 
-root.bind('<Key>', on_key)
+name_entry = tk.Entry(root)
+age_entry = tk.Entry(root)
+email_entry = tk.Entry(root)
+
+name_entry.grid(row=0, column=1)
+age_entry.grid(row=1, column=1)
+email_entry.grid(row=2, column=1)
+
+tk.Button(root, text="Submit", command=submit).grid(row=3, column=1)
+
+# Create status bar
+status_var = tk.StringVar()
+status_var.set("Ready")
+status_bar = tk.Label(root, textvariable=status_var, bd=1, relief=tk.SUNKEN, anchor=tk.W)
+status_bar.grid(row=4, columnspan=2, sticky=tk.W+tk.E)
 
 root.mainloop()

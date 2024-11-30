@@ -9,8 +9,8 @@ Add an email input field to the form.
 1. Open the form file for the framework you are using:
    - Tkinter: [form.py](../../examples/tkinter/form.py)
    - PySide6: [form.py](../../examples/pyside6/form.py)
-2. Add a new label and entry for the email field.
-3. Update the `submit` function to print the email.
+2. Add an email field.
+3. Update the `submit` function to print the email in the console.
 
 ## Solutions
 

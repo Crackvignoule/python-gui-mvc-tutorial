@@ -1,16 +1,22 @@
-# Exercice 3 : Créer une application de calculatrice
+# Exercice 3 : Ajouter un menu et une barre d'état
 
 ## Objectif
 
-Créer une application de calculatrice simple qui peut effectuer des opérations arithmétiques de base (addition, soustraction, multiplication et division).
+Améliorer l'application en ajoutant un menu et une barre d'état.
 
 ## Instructions
 
-1. Créez un nouveau fichier pour l'application de calculatrice pour le framework que vous utilisez :
-   - Tkinter : [calculator.py](../../examples/tkinter/calculator.py)
-   - PySide6 : [calculator.py](../../examples/pyside6/calculator.py)
-2. Concevez la disposition de la calculatrice avec des boutons pour les chiffres (0-9) et les opérations (+, -, *, /).
-3. Implémentez la fonctionnalité pour effectuer les opérations arithmétiques et afficher le résultat.
+1. Ouvrez le fichier corrigé de l'Exercice 2 correspondant au framework que vous utilisez :
+   - Tkinter : [form.py](../2/tkinter-solution.py)
+   - PySide6 : [form.py](../2/pyside6-solution.py)
+2. Ajoutez un menu avec les options suivantes :
+   - `File` contenant une option `Quit` pour fermer l'application.
+   - `Help` contenant une option `About` pour afficher un message d'information.
+3. Ajoutez une barre d'état pour afficher un message par défaut.
+
+<div align="center">
+    <img src="./3.png" alt="result">
+</div>
 
 ## Solutions
 
