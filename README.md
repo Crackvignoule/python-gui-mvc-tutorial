@@ -2,7 +2,7 @@
 
 # Tutoriel Python GUI et MVC
 
-Ce dépôt contient des exemples et des exercices pour créer des applications GUI en utilisant Python. Il inclut également une présentation en formats [PowerPoint](./presentation/todo.pptx) et [PDF](./presentation/todo.pdf). J'ai aussi créé un [formulaire Google](https://forms.gle/85zxmsa3xaf7VwH77) pour recueillir votre avis.
+Ce dépôt contient des exemples et des exercices pour créer des applications GUI en utilisant Python. Il inclut également une présentation en formats [PowerPoint](./presentation/Atelier%20Python%20GUI%20&%20MVC.pptx) et [PDF](./presentation/todo.pdf). J'ai aussi créé un [formulaire Google](https://forms.gle/85zxmsa3xaf7VwH77) pour recueillir votre avis.
 
 <!-- ## Notebooks
 

@@ -51,7 +51,7 @@ tk.Button(root, text="Submit", command=submit).grid(row=3, column=1)
 # Create status bar
 status_var = tk.StringVar()
 status_var.set("Ready")
-status_bar = tk.Label(root, textvariable=status_var, bd=1, relief=tk.SUNKEN, anchor=tk.W)
+status_bar = tk.Label(root, textvariable=status_var, bd=1, anchor=tk.W)
 status_bar.grid(row=4, columnspan=2, sticky=tk.W+tk.E)
 
 root.mainloop()
