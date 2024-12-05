@@ -2,7 +2,7 @@
 
 # Python GUI and MVC Tutorial
 
-This repository contains examples and exercises for creating GUI applications using Python. It also includes a presentation in both [PowerPoint](https://github.com/Crackvignoule/python-gui-mvc-tutorial/raw/refs/heads/main/presentation/Atelier%20Python%20GUI%20&%20MVC.pptx) and [PDF](./presentation/todo.pdf) formats. I've also created a [Google Form](https://forms.gle/85zxmsa3xaf7VwH77) to gather your feedback.
+This repository contains examples and exercises for creating GUI applications using Python. It also includes a presentation in both [PowerPoint](https://github.com/Crackvignoule/python-gui-mvc-tutorial/raw/refs/heads/main/presentation/Atelier%20Python%20GUI%20&%20MVC.pptx) and [PDF](./presentation/Atelier%20Python%20GUI%20&%20MVC.pdf) formats. I've also created a [Google Form](https://forms.gle/85zxmsa3xaf7VwH77) to gather your feedback.
 
 <!-- ## Notebooks
 
