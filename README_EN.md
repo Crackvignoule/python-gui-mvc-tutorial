@@ -50,7 +50,7 @@ This repository contains examples and exercises for creating GUI applications us
 
 5. Install the dependencies:
    ```sh
-   pip install pyside6
+   pip install -r requirements.txt
    ```
 
    Perfect, you are ready to start!
