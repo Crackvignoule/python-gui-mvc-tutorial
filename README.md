@@ -49,7 +49,7 @@ Ce dépôt contient des exemples et des exercices pour créer des applications G
 
 4. Installer les dépendances :
    ```sh
-   pip install pyside6
+   pip install -r requirements.txt
    ```
 
    Parfait, vous êtes prêt à commencer !
