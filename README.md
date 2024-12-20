@@ -69,8 +69,10 @@ Ce dépôt contient des exemples et des exercices pour créer des applications G
 
 ### MVC
 
-- [Hello World](./examples/mvc/helloworld.py) : Un exemple simple "Hello World" utilisant le modèle MVC.
-- [Formulaire](./examples/mvc/form.py) : Un exemple de formulaire simple utilisant le modèle MVC.
+- [Hello World](./examples/mvc/simple/helloworld.py) : Un exemple simple "Hello World" utilisant le modèle MVC dans un seul fichier. Aucune interaction avec l'utilisateur.
+- [Compteur](./examples/mvc/simple/count.py) : Un compteur simple utilisant le modèle MVC dans un seul fichier.
+- [Compteur](./examples/mvc/full/) : Un compteur simple utilisant le modèle MVC réparti sur plusieurs fichiers.
+
 
 ## Exercices
 

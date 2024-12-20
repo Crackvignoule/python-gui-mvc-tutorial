@@ -70,8 +70,9 @@ This repository contains examples and exercises for creating GUI applications us
 
 ### MVC
 
-- [Simple MVC](./examples/mvc/simple/helloworld.py): A simple MVC example in a single file.
-- [Full MVC](./examples/mvc/full/): A more complex MVC example with proper folder structure.
+- [Hello World](./examples/mvc/simple/helloworld.py): A simple "Hello World" example using the MVC model in a single file. No user interaction.
+- [Counter](./examples/mvc/simple/count.py): A simple counter using the MVC model in a single file.
+- [Counter](./examples/mvc/full/): A simple counter using the MVC model spread across multiple files.
 
 ## Exercises
 
